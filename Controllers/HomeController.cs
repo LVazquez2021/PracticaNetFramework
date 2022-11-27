@@ -13,18 +13,21 @@ namespace NET_Framework.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult AboutUs()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Title = "Acerca de Nosotros";
+            ViewBag.Message = "Pagina Acerca de Nosotros.";
 
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Producto()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Title = "Acerca de Productos";
+            ViewBag.Message = "Pagina de vista de Productos.";
 
             return View();
         }
+
     }
 }
